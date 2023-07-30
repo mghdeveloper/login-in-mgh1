@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MGH.TEXT.EDITOR</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js"></script>
+</head>
+<body>
+    <div class="web_adjust">
+        <p class="text">MGH.TEXT.EDITOR</p>
+        <img class="app-icon" src="IMAGES\ICONAPP.png" alt="Description of the image">
+        <p class= "presentation-text">Helo,MGH devellopers work to<br>
+                                      finish the free version in near<br>
+                                      time. in our app we work to allow<br>
+                                      to the user edit his text with <br>
+                                      advance thechnics.<br>
+                                      The paid version will be accompanied<br>
+                                      by a 70% discount for the first 100 <br>
+                                      people who register on the site.<br>
+                                      THE FREE VERSION BE AVAILABLE IN:<br>
+                                      ___________01/09/2023_____________
+        </p>
+        <p CLASS="LOGIN_TITLE">LOGIN:</p>
+        <img class="login_logo" src="IMAGES\LOGIN1ICON.png">
+
+        <input class="username_input" type="text" id="username_inputid"  name="username"  placeholder="Enter your username">
+        <img class="user_logo"  src="IMAGES\user logo.png">
+        <p class="user_errorMessage" id="user_errorMessageid" >PLEASE ENTERE YOUR USERNAME</p>
+
+        <input class="emeil_input"  id="emeil_inputid" type="text"  name="email"  placeholder="Enter your email">
+        <img class="email_logo" src="IMAGES\email.png">
+        <p class="email_errorMessage" id="email_errorMessageid">PLEASE ENTERE YOUR EMAIL</p>
+
+        <input class="password_input" id="password_inputid" type="password"  name="password"  placeholder="Enter your password">
+        <img class="pass_logo" src="IMAGES\password logo.png">
+        <span class="password-toggle" onclick="togglePasswordVisibility()"></span>
+        <p class="password_errorMessage" id="password_errorMessageID">PLEASE ENTERE YOUR PASSWORD</p>
+        <p  class="conpass_dif_pass" id="conpass_dif_pass_id">The password you entered does not match the one you confirmed!,</p>
+        <p class="try_again" id="tryagainid">please try again.</p>
+
+        <input class="con_password_input" id="con_password_inputid" type="password"  name="Confirme password"  placeholder="Confirme your password">
+        <img class="con_pass_logo" src="IMAGES\confirmepass.gif">
+        <span class="password-toggle" onclick="togglePasswordVisibility()"></span>
+        <p class="con_password_errorMessage" id="con_password_errorMessageID">PLEASE CONFIRME YOUR PASSWORD</p>
+
+
+        <button class="login_button_next" onclick=" open_page_of_verifecation() " >NEXT</button>
+
+    </div>
+    
+    
+    
+</body>
+</html>

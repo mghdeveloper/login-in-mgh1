@@ -1,0 +1,390 @@
+body{
+    background-color:rgb(99, 45, 45) ;
+}
+.web_adjust{
+    position: relative;
+}
+.text{
+    font-size:40px ;
+    text-align: center;
+    bottom: 20px;
+}
+.app-icon{
+    height: 300px;
+    position: absolute; /* Position the image absolutely within the container */
+    top: 200px; /* Position the image vertically at 50% from the top */
+    left: 650px; /* Position the image horizontally at 50% from the left */
+    transform: translate(-50%, -50%)
+}
+.presentation-text{
+    position: absolute; /* Position the text absolutely within the container */
+    top: 400px; /* Position the text 50 pixels from the top of the container */
+    left: 200px; /* Position the text 20 pixels from the left of the container */
+    font-size: 60px; /* Set the font size of the text */
+    font-family: Arial, sans-serif; /* Set the font family of the text */
+    color: #ffffff; 
+}
+.LOGIN_TITLE{
+    position: absolute; /* Position the text absolutely within the container */
+    top: 1300px; /* Position the text 50 pixels from the top of the container */
+    left: 600px; /* Position the text 20 pixels from the left of the container */
+    font-size: 60px; /* Set the font size of the text */
+    font-family: Arial, sans-serif; /* Set the font family of the text */
+    color: #ffffff; 
+}
+.login_logo{
+    height: 70px;
+    position: absolute; 
+    top: 1391px; 
+    left: 550px; 
+    transform: translate(-50%, -50%)
+
+
+
+}
+.username_input{
+    position: absolute;
+    top: 1500px;
+    left: 700px;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Set the font size of the input field */
+    padding: 5px; /* Add some padding inside the input field for better appearance */
+    border: 1px solid #000000; /* Add a border to the input field */
+    border-radius: 4px
+}
+.emeil_input{
+    position: absolute;
+    top: 1600px;
+    left: 700px;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Set the font size of the input field */
+    padding: 5px; /* Add some padding inside the input field for better appearance */
+    border: 1px solid #000000; /* Add a border to the input field */
+    border-radius: 4px
+}
+.password_input{
+    position: absolute;
+    top: 1700px;
+    left: 700px;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px; 
+    border: 1px solid #000000;
+    border-radius: 4px
+}
+.con_password_input{
+    position: absolute;
+    top: 1800px;
+    left: 700px;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    padding: 5px; 
+    border: 1px solid #000000;
+    border-radius: 4px
+}
+.login_button_next{
+    height: 40px;
+    width: 500px;
+    position: absolute; 
+    top: 2000px; 
+    left: 700px; 
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translate(-50%, -50%)
+
+}
+button {
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  button:active {
+    background-color: #3d4042;
+    box-shadow: 0 2px 5px rgba(148, 141, 141, 0.2);
+  }
+  .user_logo{
+    height: 40px;
+    position: absolute; 
+    top: 1500px; 
+    left:400px; 
+    transform: translate(-50%, -50%)
+
+  }
+  .email_logo{
+    height: 40px;
+    position: absolute; 
+    top: 1600px; 
+    left: 400px; 
+    transform: translate(-50%, -50%)
+
+  }
+  .pass_logo{
+    height: 40px;
+    position: absolute; 
+    top: 1700px; 
+    left: 400px; 
+    transform: translate(-50%, -50%)
+
+  }
+  .con_pass_logo{
+    height: 40px;
+    position: absolute; 
+    top: 1800px; 
+    left: 400px; 
+    transform: translate(-50%, -50%)
+
+  }
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .user_errorMessage{
+    position: absolute;
+    top: 1520px; 
+    left: 450px; 
+    font-size: 20px; 
+    font-family: Arial, sans-serif;
+    color: #ff0000; 
+    display: none;
+  }
+  .email_errorMessage{
+    position: absolute; 
+    top: 1620px; 
+    left: 450px; 
+    font-size: 20px;
+    font-family: Arial, sans-serif; 
+    color: #ff0000; 
+    display: none;
+
+  }
+  .password_errorMessage{
+    position: absolute; 
+    top: 1720px; 
+    left: 450px;
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+    color: #ff0000;
+    display: none; 
+  }
+  .con_password_errorMessage{
+    position: absolute; 
+    top: 1820px; 
+    left: 450px; 
+    font-size: 20px;
+    font-family: Arial, sans-serif; 
+    color: #ff0000;
+    display: none; 
+
+  }
+
+@media (max-width: 768px) {
+  .text{
+    font-size:20px ;
+    position: absolute;
+    top: -4px; /* Position the image vertically at 50% from the top */
+    left: 180px; /* Position the image horizontally at 50% from the left */
+    transform: translate(-50%, -50%)
+
+}
+.app-icon{
+  height: 160px;
+  position: absolute; /* Position the image absolutely within the container */
+  top: 120px; /* Position the image vertically at 50% from the top */
+  left: 180px; /* Position the image horizontally at 50% from the left */
+  transform: translate(-50%, -50%)
+}
+.presentation-text{
+  position: absolute; /* Position the text absolutely within the container */
+  top: 200px; /* Position the text 50 pixels from the top of the container */
+  left: 40px; /* Position the text 20 pixels from the left of the container */
+  font-size: 15px; /* Set the font size of the text */
+  font-family: Arial, sans-serif; /* Set the font family of the text */
+  color: #ffffff; 
+}
+.LOGIN_TITLE{
+  position: absolute; /* Position the text absolutely within the container */
+  top: 400px; /* Position the text 50 pixels from the top of the container */
+  left: 150px; /* Position the text 20 pixels from the left of the container */
+  font-size: 15px; /* Set the font size of the text */
+  font-family: Arial, sans-serif; /* Set the font family of the text */
+  color: #ffffff; 
+}
+.login_logo{
+  height: 20px;
+  position: absolute; 
+  top: 423px; 
+  left: 138px; 
+  transform: translate(-50%, -50%)
+}
+.username_input{
+  position: absolute;
+  top: 460px;
+  left: 160px;
+  transform: translate(-50%, -50%);
+  height: 10px;
+  width: 190px;
+  font-size: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Set the font size of the input field */
+  padding: 5px; /* Add some padding inside the input field for better appearance */
+  border: 1px solid #000000; /* Add a border to the input field */
+  border-radius: 4px
+}
+.emeil_input{
+  position: absolute;
+  top: 500px;
+  left: 160px;
+  transform: translate(-50%, -50%);
+  height: 10px;
+  width: 190px;
+  font-size: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Set the font size of the input field */
+  padding: 5px; /* Add some padding inside the input field for better appearance */
+  border: 1px solid #000000; /* Add a border to the input field */
+  border-radius: 4px
+}
+.password_input{
+  position: absolute;
+  top: 540px;
+  left: 160px;
+  transform: translate(-50%, -50%);
+  height: 10px;
+  width: 190px;
+  font-size: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 5px; 
+  border: 1px solid #000000;
+  border-radius: 4px
+}
+.con_password_input{
+  position: absolute;
+  top: 580px;
+  left: 160px;
+  transform: translate(-50%, -50%);
+  height: 10px;
+  width: 190px;
+  font-size: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  padding: 5px; 
+  border: 1px solid #000000;
+  border-radius: 4px
+}
+.user_logo{
+  height: 20px;
+  position: absolute; 
+  top: 460px; 
+  left:45px; 
+  transform: translate(-50%, -50%)
+
+}
+.email_logo{
+  height: 20px;
+  position: absolute; 
+  top: 500px; 
+  left: 45px; 
+  transform: translate(-50%, -50%)
+
+}
+.pass_logo{
+  height: 20px;
+  position: absolute; 
+  top: 540px; 
+  left: 45px; 
+  transform: translate(-50%, -50%)
+
+}
+.con_pass_logo{
+  height: 20px;
+  position: absolute; 
+  top: 580px; 
+  left: 45px; 
+  transform: translate(-50%, -50%)
+
+}
+.login_button_next{
+  height: 20px;
+  width: 200px;
+  position: absolute; 
+  top:650px; 
+  left: 160px; 
+  font-size: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transform: translate(-50%, -50%)
+
+}
+.user_errorMessage{
+  position: absolute;
+  top: 470px; 
+  left: 70px; 
+  font-size: 8px; 
+  font-family: Arial, sans-serif;
+  color: #ff0000; 
+  display: none;
+}
+.email_errorMessage{
+  position: absolute; 
+  top: 510px; 
+  left: 70px; 
+  font-size: 8px;
+  font-family: Arial, sans-serif; 
+  color: #ff0000; 
+  display: none;
+
+}
+.password_errorMessage{
+  position: absolute; 
+  top: 550px; 
+  left: 70px;
+  font-size: 8px; 
+  font-family: Arial, sans-serif; 
+  color: #ff0000;
+  display: none; 
+}
+.con_password_errorMessage{
+  position: absolute; 
+  top: 590px; 
+  left: 70px; 
+  font-size: 8px;
+  font-family: Arial, sans-serif; 
+  color: #ff0000;
+  display: none;
+
+}
+.conpass_dif_pass{
+  position: absolute; 
+  top: 425px; 
+  left: 10px; 
+  font-size: 10px;
+  font-family: Arial, sans-serif; 
+  color: #ff0000;
+  display: none;
+
+}
+.try_again{
+  position: absolute; 
+  top: 590px; 
+  left: 100px; 
+  font-size: 13px;
+  font-family: Arial, sans-serif; 
+  color: #ff0000;
+  display: none;
+
+}
+}
+
+
